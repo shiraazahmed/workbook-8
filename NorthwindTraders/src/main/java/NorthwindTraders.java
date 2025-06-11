@@ -10,8 +10,8 @@ public class NorthwindTraders {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/Northwind",
-                    "root",
-                    "yearup");
+                    "userName",
+                    "password");
 
             while (true) {
                 System.out.println("Choose an option:");
