@@ -1,4 +1,3 @@
-// src/main/java/SakilaFilms.java
 import org.apache.commons.dbcp2.BasicDataSource;
 
 import java.sql.*;
@@ -6,7 +5,6 @@ import java.util.Scanner;
 
 public class SakilaFilms {
     public static void main(String[] args) {
-        // Set up the DataSource
         BasicDataSource dataSource = new BasicDataSource();
         dataSource.setUrl("jdbc:mysql://localhost:3306/sakila");
         dataSource.setUsername("username");
